@@ -1,4 +1,4 @@
-How to Setup Project
+How to Setup Project <br>
 1.git clone https://github.com/nakcyber/todolist.git <br>
 2.cd todolist <br>
 3.npm install <br>
