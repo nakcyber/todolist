@@ -1,0 +1,258 @@
+input:checked + label{
+    color: #ccc;
+  font-style: normal;
+  text-decoration: line-through;
+}
+.text-complete{
+  background: #fff;
+    color: #000;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1)
+}
+.item-detail{
+  font-size: 0.7em;
+  color: #000;
+   padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+}
+
+.textLeft {
+  text-align: left;
+}
+.textRight {
+  text-align: right;
+}
+.textCenter {
+  text-align: center;
+}
+
+body {
+  font: 14px/1.5em "Open Sans";
+  background: #F0F1FA;
+}
+
+a {
+  text-decoration: none;
+  color: #E54B4B;
+}
+
+p em {
+  background: #f2f2f2;
+  color: #87878f;
+  padding: 0 2px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+hr {
+  margin: 1.5em 0;
+}
+
+.hide {
+  display: none;
+}
+
+textarea,
+button,
+a.btn,
+select,
+input[type="text"],
+input[type="submit"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="file"]::-webkit-file-upload-button {
+  font-family: inherit !important;
+  font-size: 13px;
+  border: 1px solid #B0B0BA;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+a.btn,
+button,
+input[type="submit"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="file"]::-webkit-file-upload-button {
+  background: transparent;
+  display: inline-block;
+  padding: 6px 10px;
+  color: inherit;
+  font-weight: bold !important;
+  font-family: Montserrat;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.row {
+  margin-bottom: 1.5%;
+  overflow: hidden;
+}
+.row:last-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .hlf,
+  .trd,
+  .fth {
+    float: left;
+    margin-right: 1.5%;
+  }
+  .hlf:last-child,
+  .trd:last-child,
+  .fth:last-child {
+    margin: 0;
+    float: right;
+  }
+
+  .hlf {
+    width: 49.25%;
+  }
+
+  .trd {
+    width: 32.3%;
+  }
+
+  .fth {
+    width: 23.8%;
+  }
+}
+/* Box */
+.box {
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 3%;
+  margin: 0 auto;
+  margin-bottom: 1.6%;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.tasker ul, .tasker li,
+.tasker .error,
+.tasker button,
+.tasker input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.tasker-header button, .tasker-body .task button {
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+
+/*PEN STYLES*/
+.tasker {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.tasker .error {
+  display: none;
+  background: rgba(237, 28, 36, 0.7);
+  color: #fff;
+  padding: 14px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.tasker ul {
+  background: #fff;
+}
+.tasker li,
+.tasker .error,
+.tasker button,
+.tasker input {
+  font: 18px/1.25em Helvetica, Arial, Sans-serif;
+}
+
+.tasker-header {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #ffffff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.tasker-header input,
+.tasker-header button {
+  color: #ff0000;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  padding: 14px;
+}
+.tasker-header input {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+.tasker-header button {
+  background: #fff;
+  border-left: 1px solid #ccc;
+}
+.tasker-header button:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.tasker-body .task {
+  display: block;
+  position: relative;
+  padding: 14px 40px 14px 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.tasker-body .task:last-child {
+  border-bottom: none;
+}
+.tasker-body .task:hover > button {
+  opacity: 1;
+}
+.tasker-body .task.completed {
+  color: #EDEFF1;
+  text-decoration: line-through;
+}
+.tasker-body .task input {
+  margin-right: 10px;
+}
+.tasker-body .task button {
+  color: #ed1c24;
+  margin: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.tasker-body .task button:hover {
+  color: #ed1c10;
+  cursor: pointer;
+}
+.button-save{
+     background: #5eda2c;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button-save:hover{
+cursor: pointer;
+}
+input.input-edit{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    padding: 0;
+}
